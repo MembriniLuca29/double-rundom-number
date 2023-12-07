@@ -45,6 +45,6 @@ function displayResult(resultElement, randomNumber) {
 
     // Rimuovi l'elemento più vecchio se ce ne sono troppi
     if (existingResults.length > 6) {
-        resultElement.removeChild(existingResults[3]);
+        resultElement.removeChild(existingResults[6]);
     }
 }
